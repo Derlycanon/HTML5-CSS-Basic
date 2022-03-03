@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+    background-image: url(../img/fondo.jpg);
+}
+
+h1{background-color: #2f1a7c;
+    color: rgb(242, 240, 245);
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;}
+
+h2{ color: rgb(19%, 20%, 126%);
+    font-style: oblique}
+    
+p{ color: hsl(207, 46%, 10%);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, p{
+    text-align: right;
+}
+
+

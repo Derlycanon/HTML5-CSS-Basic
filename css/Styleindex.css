@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+    margin: 10;
+    padding: 5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(195, 206, 216);
+    font-family: 'Anton', sans-serif;
+}
+
+.portafolio{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.portafolio h1{
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+}
+
+.portafolio-container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+}
+
+.portafolio-item{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+.portafolio-img{
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.portafolio-text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    background: rgba (0,0,0,0.7);
+    color:rgb(255, 255, 255);
+    -webkit-transform:translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.portafolio-text p{
+    text-align: justify;
+}
+
+.portafolio-item:hover .portafolio-text{
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+.portafolio-item:hover .portafolio-img{
+    -webkit-transform: scale(1.15);
+    -ms-transform:scale(1.15);
+    transform: scale(1.15);
+}
+
+/*---LADO X---*/
+
+.noti-conte1 {
+    font-weight: 600;
+    position: absolute;
+    bottom: 1;
+    padding: 20px;
+    top: -15px;
+    background: rgba(216, 80, 80, 0.7);
+    color: #fff;
+    -webkit-transform: translateX(150%);
+    -ms-transform: translateX(150%);
+    transform: translateX(150%);
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.portafolio-item:hover .noti-conte1 {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(2%);
+}
+
+.portafolio-item > .noti-conte1 > #Dcanon {
+    color: #fff;
+    font-weight: 500;
+    padding: 5px;
+}
+
+
+
+
